@@ -4,8 +4,8 @@ import os
 import shutil
 
 # Default path for the Downloads directory in macOS
-downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads')
-images_path = '/Users/alex/Documents/Images'
+downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads') # add your downloads path
+images_path = '/Users/NAME/Documents/Images' # add your images path here
 
 # Checking whether an item is in the set is more efficient than in a list, especially as the size of the collection grows, because sets in Python are implemented as hash tables.
 
